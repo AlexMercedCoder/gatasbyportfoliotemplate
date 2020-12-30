@@ -1,4 +1,5 @@
 ## Readme
+#### Template by Alex Merced of AlexMercedCoder.com
 
 - Markdown files are read out of the mark folder and injected into the MarkPage component.
 
@@ -28,5 +29,7 @@
 ## Edit the main page
 
 - edit the index.jsx
+
+## Gatsby Offline is installed to allow site to be used as PWA
 
 

@@ -1,3 +1,49 @@
-h1 {
-    color: red;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --title-font: serif;
+    --text-font: aerial;
+
+    --primary-color: crimson;
+    --secondary-color: white;
+    --accent-color: purple;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--title-font);
+}
+
+body {
+    font-family: var(--text-font);
+}
+
+/* ****************************
+Layout.js - nav
+**************************** */
+
+nav {
+    display: flex;
+    height: 40px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 5px;
+    justify-content: space-around;
+}
+
+nav a {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px;
+    transition: background-color .3s, color .3s;
+}
+
+nav a:hover {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
