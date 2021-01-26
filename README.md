@@ -1,4 +1,6 @@
 ## Readme
+
+make sure to run ```npm install``` after cloning template
 #### Template by Alex Merced of AlexMercedCoder.com
 
 - Markdown files are read out of the mark folder and injected into the MarkPage component.
@@ -22,6 +24,10 @@
 
 - Add an additional object in the array in projects.json
 
+## Edit Appearance of single blog post
+
+- The MarkPage component in src/layout is how single blogpost appears
+
 ## Edit header and footer
 
 - Edit the Layout.js in src/layout
@@ -29,6 +35,10 @@
 ## Edit the main page
 
 - edit the index.jsx
+
+## other pages
+
+- src/blog.js and src/projects.js are the pages that list projects and list blogs
 
 ## Gatsby Offline is installed to allow site to be used as PWA
 
